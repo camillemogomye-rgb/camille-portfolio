@@ -1,0 +1,27 @@
+/* src/style.css */
+:root {
+  --bg-dark-main: #0B0A1C;     /* Ton fond sombre principal */
+  --bg-dark-card: #131229;     /* Le fond de tes blocs/cartes */
+  --color-gold: #F1EC4C;        /* Ton jaune/or d'accentuation */
+  --bg-gray-color: #202131;
+  --text-white: #FFFFFF;
+  --text-muted: #94A3B8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark-main);
+  color: var(--text-white);
+  font-family: 'DM Sans 14pt', sans-serif; /* Ou ta police de prédélection */
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
