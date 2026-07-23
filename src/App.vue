@@ -1,14 +1,14 @@
 <template>
   <div class="app-container">
-    <!-- Nos futurs composants viendront ici -->
-    <h1 style="color: var(--color-gold); text-align: center; margin-top: 50px">
-      Portfolio de Camille - Prêt pour l'intégration
-    </h1>
+    <TheHeader />
+    <main class="main-container">
+      <h1>Bienvenue sur mon PORTFOLIO</h1>
+    </main>
   </div>
 </template>
 
 <script setup>
-// C'est ici que nous importerons nos composants plus tard
+import TheHeader from "./components/TheHeader.vue";
 </script>
 
 <style>

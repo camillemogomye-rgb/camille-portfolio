@@ -1,11 +1,11 @@
 /* src/style.css */
 :root {
-  --bg-dark-main: #0B0A1C;     /* Ton fond sombre principal */
-  --bg-dark-card: #131229;     /* Le fond de tes blocs/cartes */
-  --color-gold: #F1EC4C;        /* Ton jaune/or d'accentuation */
+  --bg-dark-main: #0b0a1c; /* Ton fond sombre principal */
+  --bg-dark-card: #131229; /* Le fond de tes blocs/cartes */
+  --color-gold: #f1ec4c; /* Ton jaune/or d'accentuation */
   --bg-gray-color: #202131;
-  --text-white: #FFFFFF;
-  --text-muted: #94A3B8;
+  --text-white: #ffffff;
+  --text-muted: #94a3b8;
 }
 
 * {
@@ -17,8 +17,34 @@
 body {
   background-color: var(--bg-dark-main);
   color: var(--text-white);
-  font-family: 'DM Sans 14pt', sans-serif; /* Ou ta police de prédélection */
+  font-family: "DM Sans 14pt", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  overflow-y: scroll;
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Sans 14pt", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 a {
