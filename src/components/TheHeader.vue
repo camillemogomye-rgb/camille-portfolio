@@ -40,7 +40,6 @@
   max-width: 1380px;
   align-items: center;
   margin: 0 auto;
-  padding: 20px;
 }
 
 nav ul {
