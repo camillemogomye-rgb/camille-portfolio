@@ -28,6 +28,8 @@
   top: 0;
   left: 0;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: var(--bg-dark-card);
   z-index: 999;
 }
@@ -36,7 +38,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0;
   max-width: 1380px;
   align-items: center;
   margin: 0 auto;
@@ -64,6 +66,7 @@ nav a:hover {
   background-color: var(--color-gold);
   color: var(--bg-dark-card);
   padding: 12px 38px;
+  font-weight: bold;
   border: 1px solid var(--color-gold);
   transition: background-color 0.3s ease;
   text-decoration: none;

@@ -20,10 +20,12 @@ body {
   background-color: var(--bg-dark-main);
   color: var(--text-white);
   font-family: "DM Sans 14pt", sans-serif;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: clamp(1rem, 1.449vw, 1.25rem);
+  line-height: 1.35;
   overflow-y: scroll;
   overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1,
@@ -35,22 +37,72 @@ h6 {
   font-family: "DM Sans 14pt", sans-serif;
   font-weight: 700;
 }
-
-@media screen and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-    line-height: 24px;
-  }
+h1 {
+  font-size: clamp(2.18rem, 5.2vw, 6.25rem);
+  line-height: 1.08;
 }
-
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-    line-height: 24px;
-  }
+h2 {
+  font-size: clamp(1.56rem, 4.9vw, 4.25rem);
+  line-height: 1.3088;
+}
+h3 {
+  font-size: clamp(1.25rem, 1.8116vw, 1.5625rem);
+  line-height: 1.32;
+}
+.sous-titre {
+  font:
+    normal bold clamp(1.5rem, 2.174vw, 1.875rem) / 1.33 "DM Sans 14pt",
+    sans-serif;
+  color: var(--color-gold);
+}
+.surtitle {
+  font-family: "DM Sans 14pt", sans-serif;
+  font-weight: 400;
+  color: var(--color-gold);
+  font-size: clamp(0.875rem, 1.13vw, 1.125rem);
+  line-height: 1.33;
+  letter-spacing: 0.108em;
+  margin-top: -10px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+.bouton {
+  font-size: clamp(1rem, 1.449vw, 1.25rem);
+  padding: clamp(1rem, 1.95vw, 1.68rem) clamp(1.56rem, 3.47vw, 3rem);
+  font-weight: 400;
+  line-height: 1;
+}
+.bouton-white {
+  background-color: var(--text-white);
+  border: 1px solid var(--text-white);
+  border-radius: 0px;
+  color: var(--bg-dark-card);
+  text-align: center;
+}
+.bouton-outline {
+  background-color: transparent;
+  border: 1px solid var(--text-white);
+  border-radius: 0px;
+  color: var(--text-white);
+  text-align: center;
+}
+.skill {
+  background-color: #202131;
+  border: 0.5px solid #707070;
+  border-radius: 50px;
+  padding: 4px 12px;
+  font-size: clamp(0.75rem, 1.16vw, 0.9rem);
+  line-height: 1;
+  font-weight: 200;
+  color: var(--text-white);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

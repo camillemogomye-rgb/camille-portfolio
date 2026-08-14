@@ -1,0 +1,63 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "titre": "CRÉATION DE SITE INTERNET",
+      "surtitre": "SITE VITRINE / SITE E-COMMERCE",
+      "description": "Sites professionnels avec Elementor, Oxygen Builder. Performance, sécurité et facilité de gestion garanties.",
+      "icone": "website.svg"
+    },
+    {
+      "id": 2,
+      "titre": "DESIGN UI/UX",
+      "surtitre": "WEB ET MOBILE",
+      "description": "Wireframes et prototypes interactifs pour visualiser votre projet avant le développement. Zéro mauvaise surprise.",
+      "icone": "ux.svg"
+    },
+    {
+      "id": 3,
+      "titre": "OPTIMISATION SEO",
+      "surtitre": "RÉFÉRENCEMENT NATUREL",
+      "description": "SEO technique et on-page : structure HTML sémantique, Core Web Vitals, balises optimisées, données structurées.",
+      "icone": "seo.svg"
+    },
+    {
+      "id": 4,
+      "titre": "GESTION DE PROJET",
+      "surtitre": "SITE VITRINE / SITE E-COMMERCE",
+      "description": "Pilotage complet de vos projets digitaux : planning Gantt, coordination d'équipes, suivi Trello, reporting régulier.",
+      "icone": "project-management.svg"
+    }
+  ],
+
+  "references": [
+    {
+      "id": 1,
+      "mockup": "mockup-gewitec.webp",
+      "titre": "gewitec.ch",
+      "url": "https://gewitec.ch",
+      "skills": ["Adobe XD", "WordPress", "Elementor", "UX/UI"]
+    },
+    {
+      "id": 2,
+      "mockup": "mockup-regofix.webp",
+      "titre": "rego-fix.jobs",
+      "url": "https://rego-fix.jobs",
+      "skills": ["Adobe XD", "WordPress", "Elementor", "UX/UI"]
+    },
+    {
+      "id": 3,
+      "mockup": "mockup-mekui.webp",
+      "titre": "mekui-energy.com",
+      "url": "https://mekui-energy.com",
+      "skills": ["Adobe XD", "WordPress", "Elementor", "UX/UI"]
+    },
+    {
+      "id": 3,
+      "mockup": "mockup-mboacovoiturage.webp",
+      "titre": "mboa-covoiturage.com",
+      "url": "https://mboa-covoiturage.com",
+      "skills": ["Adobe XD", "WordPress", "Elementor", "UX/UI"]
+    }
+  ]
+}

@@ -13,6 +13,8 @@
 
     <main class="main-container">
       <HeroSection />
+      <ServicesSection />
+      <ReferenceSection />
     </main>
   </div>
 </template>
@@ -20,12 +22,16 @@
 <script setup>
 import TheHeader from "./components/TheHeader.vue";
 import HeroSection from "./components/HeroSection.vue";
+import ServicesSection from "./components/ServicesSection.vue";
+import ReferenceSection from "./components/ReferenceSection.vue";
 </script>
 
 <style>
 .main-container {
-  padding-top: 150px;
+  padding-top: 96px;
   min-height: 100vh;
+  max-width: 1380px;
+  margin: 0 auto;
 }
 
 .bg-lines-grid {
@@ -50,5 +56,13 @@ import HeroSection from "./components/HeroSection.vue";
 .bg-lines-grid span {
   height: 100%;
   border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media screen and (max-width: 1024px) {
+  .main-container {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
 }
 </style>

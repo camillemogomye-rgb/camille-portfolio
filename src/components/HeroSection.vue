@@ -36,8 +36,8 @@
             en ligne.
           </p>
           <div class="bouton-container">
-            <a class="bouton-white">DEVIS GRATUIT</a>
-            <a class="bouton-outline">CONSULTER MON CV</a>
+            <a class="bouton bouton-white">DEVIS GRATUIT</a>
+            <a class="bouton bouton-outline">CONSULTER MON CV</a>
           </div>
         </div>
       </div>
@@ -50,14 +50,15 @@
 <style scoped>
 .hero-section {
   max-width: 1380px;
+  height: calc(100vh - 96px);
   margin: 0 auto;
-  padding: 40px 20px;
-  height: calc(100vh - 128px);
+  display: flex;
+  align-items: center;
 }
 
 .text-container {
-  font-size: 30px;
-  line-height: 39px;
+  font-size: clamp(1.25rem, 2.17vw, 1.875rem);
+  line-height: 1.3088;
   color: var(--text-white);
   text-align: center;
   display: flex;
@@ -66,22 +67,20 @@
   justify-content: center;
 }
 .hero-title {
-  font-size: 100px;
-  line-height: 100px;
   color: var(--color-gold);
   text-align: center;
   width: 100%;
 }
 .hero-subtitle {
-  font-size: 68px;
-  line-height: 70px;
+  font-size: clamp(1.56rem, 4.9vw, 4.25rem);
+  line-height: 1.3088;
   color: var(--text-white);
   margin-top: -20px;
 }
 .hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 40px;
+  gap: 40px;
   margin-top: 40px;
   width: 90%;
 }
@@ -90,9 +89,10 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--bg-dark-card);
-  padding: 48px 70px;
+  padding: clamp(1.25rem, 3.76vw, 3.25rem) clamp(1.56rem, 5.72vw, 4.93rem);
   gap: 20px;
-  width: 577px;
+  position: relative;
+  width: 100%;
 }
 .nom-profession {
   display: flex;
@@ -100,13 +100,11 @@
   justify-content: space-between;
 }
 .nom {
-  font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
   color: var(--text-white);
 }
 .profession {
-  font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
   color: var(--color-gold);
 }
 .separateur {
@@ -118,20 +116,12 @@
   gap: 10px 22px;
   flex-wrap: wrap;
 }
-.skill {
-  background-color: #202131;
-  border: 0.5px solid #707070;
-  border-radius: 50px;
-  padding: 4px 12px;
-  font-size: 16px;
-  line-height: 21px;
-  color: var(--text-white);
-}
+
 .description {
   padding: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: content;
+  justify-content: center;
 }
 .bouton-container {
   display: flex;
@@ -139,24 +129,34 @@
   gap: 24px;
   margin-top: 20px;
 }
-.bouton-white {
-  background-color: var(--text-white);
-  border: 1px solid var(--text-white);
-  border-radius: 0px;
-  padding: 21px 50px;
-  font-size: 20px;
-  line-height: 26px;
-  color: var(--bg-dark-card);
-  text-align: center;
-}
-.bouton-outline {
-  background-color: transparent;
-  border: 1px solid var(--text-white);
-  border-radius: 0px;
-  padding: 21px 50px;
-  font-size: 20px;
-  line-height: 26px;
-  color: var(--text-white);
-  text-align: center;
+
+@media screen and (max-width: 1024px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .nom {
+    text-align: center;
+  }
+  .profession {
+    text-align: center;
+  }
+  .hero-description {
+    align-items: center;
+  }
+  .skills {
+    justify-content: center;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+  }
+  .description p {
+    text-align: center;
+  }
+  .bouton-container {
+    justify-content: center;
+  }
 }
 </style>
