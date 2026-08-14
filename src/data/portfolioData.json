@@ -59,5 +59,37 @@
       "url": "https://mboa-covoiturage.com",
       "skills": ["Adobe XD", "WordPress", "Elementor", "UX/UI"]
     }
+  ],
+  "processus": [
+    {
+      "step": "01",
+      "titre": "Découverte",
+      "description": "Compréhension approfondie de vos objectifs, votre cible, votre marché et votre identité de marque."
+    },
+    {
+      "step": "02",
+      "titre": "Stratégie",
+      "description": "Définition de l'architecture, de l'arborescence et de la stratégie UX adaptée à votre secteur."
+    },
+    {
+      "step": "03",
+      "titre": "Maquettage",
+      "description": "Création des wireframes et prototypes visuels sous Adobe XD pour validation avant développement."
+    },
+    {
+      "step": "04",
+      "titre": "Intégration",
+      "description": "Développement et intégration WordPress avec Elementor selon les maquettes validées."
+    },
+    {
+      "step": "05",
+      "titre": "Test & SEO",
+      "description": "Tests cross-browser, optimisation performance, Core Web Vitals et référencement naturel."
+    },
+    {
+      "step": "06",
+      "titre": "Livraison",
+      "description": "Mise en ligne, formation et accompagnement post-lancement pour une prise en main sereine."
+    }
   ]
 }

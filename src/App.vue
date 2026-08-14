@@ -15,6 +15,7 @@
       <HeroSection />
       <ServicesSection />
       <ReferenceSection />
+      <ProcessusSection />
     </main>
   </div>
 </template>
@@ -24,13 +25,14 @@ import TheHeader from "./components/TheHeader.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import ReferenceSection from "./components/ReferenceSection.vue";
+import ProcessusSection from "./components/ProcessusSection.vue";
 </script>
 
 <style>
 .main-container {
   padding-top: 96px;
   min-height: 100vh;
-  max-width: 1380px;
+  max-width: 100%;
   margin: 0 auto;
 }
 

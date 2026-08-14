@@ -167,7 +167,7 @@ const trackStyle = computed(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   overflow: hidden;
 }
 
