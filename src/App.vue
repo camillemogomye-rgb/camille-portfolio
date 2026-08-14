@@ -16,6 +16,7 @@
       <ServicesSection />
       <ReferenceSection />
       <ProcessusSection />
+      <ContactSection />
     </main>
   </div>
 </template>
@@ -26,6 +27,7 @@ import HeroSection from "./components/HeroSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import ReferenceSection from "./components/ReferenceSection.vue";
 import ProcessusSection from "./components/ProcessusSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 </script>
 
 <style>
